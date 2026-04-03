@@ -168,7 +168,8 @@ export default function OTAUploader() {
   return (
     <div className="ota-uploader">
       <div className="upload-card">
-        <h2 className="card-title">📤 Upload Firmware</h2>
+        <h2 className="card-title">📤 Firmware Upload</h2>
+        <p className="card-subtitle">Upload new firmware versions for ESP32 devices</p>
 
         {/* File Input */}
         <div className="form-group">
